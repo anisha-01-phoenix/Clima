@@ -20,3 +20,19 @@ const kConditionTextStyle = TextStyle(
 );
 
 const apiKey = "a2ff7cb6665a2043a583532ddcf7274d";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather";
+
+const kTextFieldInputDecoration = InputDecoration(
+  filled: true,
+  fillColor: Colors.white,
+  icon: Icon(Icons.location_city),
+  hintText: 'Enter City Name',
+  hintStyle: TextStyle(
+    color: Colors.grey,
+  ),
+  border: OutlineInputBorder(
+    borderRadius: BorderRadius.all(
+      Radius.circular(15.0),
+    ),
+  ),
+);
